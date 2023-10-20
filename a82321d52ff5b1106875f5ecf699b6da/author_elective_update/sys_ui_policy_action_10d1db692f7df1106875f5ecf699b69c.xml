@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="DELETE">
+        <cleared>false</cleared>
+        <disabled>true</disabled>
+        <field>status</field>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-10 15:14:08</sys_created_on>
+        <sys_id>10d1db692f7df1106875f5ecf699b69c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>status</sys_name>
+        <sys_package display_value="Leave Management System" source="x_1137297_leave_0">a82321d52ff5b1106875f5ecf699b6da</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Leave Management System">a82321d52ff5b1106875f5ecf699b6da</sys_scope>
+        <sys_update_name>sys_ui_policy_action_10d1db692f7df1106875f5ecf699b69c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-10 15:14:08</sys_updated_on>
+        <table>x_1137297_leave_0_leave_request</table>
+        <ui_policy display_value="Make fields mandatory ">464bade12ff5f1106875f5ecf699b661</ui_policy>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Leave Management System">a82321d52ff5b1106875f5ecf699b6da</application>
+        <file_path/>
+        <instance_id>e80feadcdbf73f40387021c405961967</instance_id>
+        <instance_name>dev93193</instance_name>
+        <name>sys_ui_policy_action_10d1db692f7df1106875f5ecf699b69c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action"><sys_ui_policy_action action="INSERT_OR_UPDATE"><cleared>false</cleared><disabled>true</disabled><field>status</field><mandatory>ignore</mandatory><sys_class_name>sys_ui_policy_action</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-10-10 15:14:08</sys_created_on><sys_id>10d1db692f7df1106875f5ecf699b69c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>status</sys_name><sys_package display_value="Leave Management System" source="x_1137297_leave_0">a82321d52ff5b1106875f5ecf699b6da</sys_package><sys_policy/><sys_scope display_value="Leave Management System">a82321d52ff5b1106875f5ecf699b6da</sys_scope><sys_update_name>sys_ui_policy_action_10d1db692f7df1106875f5ecf699b69c</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-10-10 15:14:08</sys_updated_on><table>x_1137297_leave_0_leave_request</table><ui_policy display_value="Make fields mandatory ">464bade12ff5f1106875f5ecf699b661</ui_policy><visible>ignore</visible></sys_ui_policy_action></record_update>]]></payload>
+        <payload_hash>1147039140</payload_hash>
+        <record_name>status</record_name>
+        <reverted_from/>
+        <source>6c2321d52ff5b1106875f5ecf699b6dc</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-10 15:14:08</sys_created_on>
+        <sys_id>16d1d3692f7df1106875f5ecf699b604</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18b1a270d000000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-10 15:14:08</sys_updated_on>
+        <type>UI Policy Action</type>
+        <update_guid>1ad1d3694f7df1103095594009ac4203</update_guid>
+        <update_guid_history>1ad1d3694f7df1103095594009ac4203:1147039140</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-10 15:30:16</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy_action">sys_ui_policy_action</sys_db_object>
+        <sys_id>007c7ae43b584a248028beee7c7a3fd9</sys_id>
+        <sys_metadata>10d1db692f7df1106875f5ecf699b69c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>status</sys_name>
+        <sys_package display_value="Leave Management System" source="x_1137297_leave_0">a82321d52ff5b1106875f5ecf699b6da</sys_package>
+        <sys_parent display_value="Make fields mandatory ">464bade12ff5f1106875f5ecf699b661</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Leave Management System">a82321d52ff5b1106875f5ecf699b6da</sys_scope>
+        <sys_scope_delete display_value="">183153395e204344a3878d2c2b389a44</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_action_10d1db692f7df1106875f5ecf699b69c</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_action_10d1db692f7df1106875f5ecf699b69c">16d1d3692f7df1106875f5ecf699b604</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-10 15:30:16</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
