@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-09 12:54:06</sys_created_on>
+        <sys_id>5138e11d2ff5b1106875f5ecf699b608</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1137297_leave_0_leave_bucket.x_1137297_leave_0.leave_bucket_user</sys_name>
+        <sys_package display_value="Leave Management System" source="x_1137297_leave_0">a82321d52ff5b1106875f5ecf699b6da</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Leave Management System">a82321d52ff5b1106875f5ecf699b6da</sys_scope>
+        <sys_security_acl display_value="x_1137297_leave_0_leave_bucket">9138e11d2ff5b1106875f5ecf699b605</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_5138e11d2ff5b1106875f5ecf699b608</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-09 12:54:06</sys_updated_on>
+        <sys_user_role display_value="x_1137297_leave_0.leave_bucket_user" name="x_1137297_leave_0.leave_bucket_user">7838ad592ff5b1106875f5ecf699b6ab</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>

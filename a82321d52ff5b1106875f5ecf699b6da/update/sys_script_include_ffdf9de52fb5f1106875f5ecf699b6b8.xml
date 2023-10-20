@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_1137297_leave_0.lmsAjax</api_name>
+        <caller_access>1</caller_access>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>lmsAjax</name>
+        <script><![CDATA[var lmsAjax = Class.create();
+lmsAjax.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+
+    getDateDiff: function() {
+        var d1 = new GlideDate();
+        d1.setDisplayValue(this.getParameter('sysparm_start'));
+        var d2 = new GlideDate();
+        d2.setDisplayValue(this.getParameter('sysparm_end'));
+		
+		var duration = GlideDate.subtract(d1, d2);
+		return duration.getNumericValue();
+    },
+	
+	getLeaveBucket : function() {
+		var gr = new GlideRecord('x_1137297_leave_0_leave_bucket');
+		gs.info("gr outside:"+ gr);
+		gr.addQuery('employee', this.getParameter('sysparm_user'));
+		gr.addQuery('type', this.getParameter('sysparm_leavetype'));
+		gr.query();
+		while(gr.next()) {
+			gs.info("gr.accrued:"+ gr.accrued);
+			var leaveDetails = {};
+			leaveDetails.accrued = '' + gr.accrued;
+			leaveDetails.balance = '' + gr.balance;
+			leaveDetails.taken = '' + gr.taken;
+			gs.info("leaveDetails:"+ leaveDetails.accrued);
+			return JSON.stringify(leaveDetails);
+		}
+	},
+	
+
+    type: 'lmsAjax'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-10-10 07:04:44</sys_created_on>
+        <sys_id>ffdf9de52fb5f1106875f5ecf699b6b8</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_name>lmsAjax</sys_name>
+        <sys_package display_value="Leave Management System" source="x_1137297_leave_0">a82321d52ff5b1106875f5ecf699b6da</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Leave Management System">a82321d52ff5b1106875f5ecf699b6da</sys_scope>
+        <sys_update_name>sys_script_include_ffdf9de52fb5f1106875f5ecf699b6b8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-10-10 12:54:21</sys_updated_on>
+    </sys_script_include>
+</record_update>
