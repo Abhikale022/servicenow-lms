@@ -5,6 +5,7 @@
         <enforce_license>log</enforce_license>
         <guided_setup_guid/>
         <hide_on_ui>false</hide_on_ui>
+        <ide_created/>
         <installed_as_dependency>false</installed_as_dependency>
         <js_level>es_latest</js_level>
         <licensable>true</licensable>
@@ -22,16 +23,17 @@
         <scoped_administration>false</scoped_administration>
         <short_description>System for requesting and managing leaves of employees </short_description>
         <source>x_1137297_leave_0</source>
-        <store_correlation_id/>
+        <store_correlation_id>REPOAPP0000002086</store_correlation_id>
         <store_url/>
+        <subscription_entitlement/>
         <sys_class_name>sys_app</sys_class_name>
         <sys_code/>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-10-09 12:31:56</sys_created_on>
         <sys_id>a82321d52ff5b1106875f5ecf699b6da</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-10-20 15:17:32</sys_updated_on>
+        <sys_updated_on>2024-05-15 13:05:26</sys_updated_on>
         <template/>
         <trackable>true</trackable>
         <uninstall_blocked>false</uninstall_blocked>

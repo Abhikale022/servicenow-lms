@@ -7,9 +7,11 @@
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </condition>
         <description>Allow write for records in x_1137297_leave_0_leave_request, for users with role x_1137297_leave_0.user, and if the ACL condition (approval!=approved^EQ) evaluates to true.</description>
+        <local_or_existing/>
         <name>x_1137297_leave_0_leave_request</name>
         <operation display_value="write">write</operation>
         <script/>
+        <security_attribute/>
         <sys_class_name>sys_security_acl</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-10-10 12:15:17</sys_created_on>

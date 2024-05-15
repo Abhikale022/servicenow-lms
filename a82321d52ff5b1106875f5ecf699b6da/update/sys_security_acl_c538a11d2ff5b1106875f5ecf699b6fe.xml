@@ -5,9 +5,11 @@
         <advanced>false</advanced>
         <condition/>
         <description>Default access control on x_1137297_leave_0_leave_bucket</description>
+        <local_or_existing/>
         <name>x_1137297_leave_0_leave_bucket</name>
         <operation display_value="create">create</operation>
         <script/>
+        <security_attribute/>
         <sys_class_name>sys_security_acl</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-10-09 12:54:06</sys_created_on>

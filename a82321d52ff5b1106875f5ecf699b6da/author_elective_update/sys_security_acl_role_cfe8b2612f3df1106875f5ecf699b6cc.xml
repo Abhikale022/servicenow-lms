@@ -42,7 +42,7 @@
         <update_guid_history>8e09b261913df1100a9b2870795e4a44:993707272</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="x_1137297_leave_0_leave_bucket.x_1137297_leave_0.user">d7775b212fbdf1106875f5ecf699b6d5</sys_audit_delete>
+        <sys_audit_delete display_value="">d7775b212fbdf1106875f5ecf699b6d5</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-10-10 15:38:47</sys_created_on>
